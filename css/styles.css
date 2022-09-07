@@ -278,6 +278,18 @@ text-transform: uppercase;
 margin-bottom: 20px;
 }
 
+.feature-picture{
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+
+
 /*--EXAMPLES SECTION--*/
 
 .examples-section{
