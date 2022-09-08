@@ -152,7 +152,6 @@ padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
     align-items: center;
-    fill: currentColor;
 }
 
 
@@ -348,7 +347,6 @@ margin-right: auto;
 
 .member-list{
     width: 270px;
-    flex-basis: calc((100% / 4) - 30px);
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     
@@ -379,6 +377,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 16px;
 }
 
 .social-list{
@@ -386,9 +385,6 @@ letter-spacing: 0.03em;
     justify-content: center;
     align-items: center;
     column-gap: 10px;
-    margin-top: 16px;
-    padding-right: 32px;
-    padding-left: 32px;
 }
 
 .social-list-item{
@@ -414,12 +410,6 @@ letter-spacing: 0.03em;
     background-color:var(--accent-color);
     fill:var(--logo-light-color);
 }
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon{
-    fill:var(--logo-light-color);
-}
-
 
 
 /*--CLIENS--*/
@@ -541,6 +531,7 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--logo-light-color);
+margin-bottom: 20px;
 }
 
 
@@ -571,7 +562,6 @@ display: flex;
 
 .footer-social-list{
     display: flex;
-    margin-top: 20px;
     gap: 10px;
 }
 
